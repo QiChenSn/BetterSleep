@@ -1,13 +1,3 @@
 {
-  "itemGroup.bettersleep": "Example Mod Tab",
-  "block.bettersleep.example_block": "Example Block",
-  "item.bettersleep.example_item": "Example Item",
 
-  "bettersleep.configuration.title": "Better Sleep Configs",
-  "bettersleep.configuration.section.bettersleep.common.toml": "Better Sleep Configs",
-  "bettersleep.configuration.section.bettersleep.common.toml.title": "Better Sleep Configs",
-  "bettersleep.configuration.items": "Item List",
-  "bettersleep.configuration.logDirtBlock": "Log Dirt Block",
-  "bettersleep.configuration.magicNumberIntroduction": "Magic Number Text",
-  "bettersleep.configuration.magicNumber": "Magic Number"
 }
