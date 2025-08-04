@@ -1,0 +1,93 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - BetterSleep",
+        "order": 0
+      },
+      "projectName": "BetterSleep",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\Code\\IdeaProjects\\BetterSleep\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\Code\\IdeaProjects\\BetterSleep\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dbettersleep%%D:\\Code\\IdeaProjects\\BetterSleep\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Data",
+      "presentation": {
+        "group": "Mod Development - BetterSleep",
+        "order": 1
+      },
+      "projectName": "BetterSleep",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\Code\\IdeaProjects\\BetterSleep\\build\\moddev\\dataRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\Code\\IdeaProjects\\BetterSleep\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dbettersleep%%D:\\Code\\IdeaProjects\\BetterSleep\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "GameTestServer",
+      "presentation": {
+        "group": "Mod Development - BetterSleep",
+        "order": 2
+      },
+      "projectName": "BetterSleep",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\Code\\IdeaProjects\\BetterSleep\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\Code\\IdeaProjects\\BetterSleep\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dbettersleep%%D:\\Code\\IdeaProjects\\BetterSleep\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - BetterSleep",
+        "order": 3
+      },
+      "projectName": "BetterSleep",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\Code\\IdeaProjects\\BetterSleep\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\Code\\IdeaProjects\\BetterSleep\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dbettersleep%%D:\\Code\\IdeaProjects\\BetterSleep\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}
